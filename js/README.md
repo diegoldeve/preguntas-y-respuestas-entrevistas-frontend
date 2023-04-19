@@ -47,6 +47,10 @@
     ```
 
 1. [ ] [¿Tienes un ejemplo de una expresión ternaria? ¿Por qué "ternaria"?](#22)
+           const edad = 18;
+           const esMayorDeEdad = edad >= 18 ? 'Sí' : 'No';
+           console.log(esMayorDeEdad); // Imprime 'Sí'
+           La expresión ternaria se llama así porque consta de tres partes: la condición a evaluar, el resultado si la condición se cumple (parte antes del :) y el resultado si la condición no se cumple (parte después del :). Es una forma concisa y expresiva de escribir una condición en una sola línea en lugar de usar un bloque de if y else.
 1. [ ] [¿Por qué es generalmente una buena idea no agregar cosas al scope global de un sitio Web (window)?](#23)
 1. [ ] [¿Por qué usarías el evento "load"? ¿Ventajas y desventajas? ¿Alternativas?](#24)
 1. [ ] [¿Cómo harías una SPA (Single page application) "SEO Friendly"?](#25)
